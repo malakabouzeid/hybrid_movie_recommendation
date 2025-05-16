@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from intellegent hybrid.recommender import content_based_recommend, hybrid_recommend
+from intellegent_hybrid.recommender import content_based_recommend, hybrid_recommend
 
 # Load movies and ratings data
 movies = pd.read_csv("movies.csv")
